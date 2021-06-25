@@ -39,7 +39,7 @@
             "default_path": "{{ project_name }}/sdk"
         },
         "aio_sdk_interceptor": {
-            "source": "cp_py_grpc//sync_sdk_interceptor",
+            "source": "cp_py_grpc//aio_sdk_interceptor",
             "description": "grpc的客户端定义",
             "default_path": "{{ project_name }}/sdk/interceptor"
         },
@@ -49,7 +49,7 @@
             "default_path": "{{ project_name }}/serv"
         },
         "aio_serv_interceptor": {
-            "source": "cp_py_grpc//sync_serv_interceptor",
+            "source": "cp_py_grpc//aio_serv_interceptor",
             "description": "grpc的客户端定义",
             "default_path": "{{ project_name }}/serv/interceptor"
         },
